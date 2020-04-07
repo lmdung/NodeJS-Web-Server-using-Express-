@@ -1,0 +1,22 @@
+{
+  "name": "webserver-using-express-demo",
+  "version": "1.0.0",
+  "description": "Just a demo webserver using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmdung/NodeJS-Web-Server-using-Express-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmdung/NodeJS-Web-Server-using-Express-/issues"
+  },
+  "homepage": "https://github.com/lmdung/NodeJS-Web-Server-using-Express-#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
