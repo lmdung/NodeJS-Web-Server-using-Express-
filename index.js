@@ -11,7 +11,7 @@ const port = 3000;
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 app.use(express.static('public'))
-app.use(cookieParser())
+app.use(cookieParser('sfw3wfw323r2'))
 
 app.set('view engine', 'pug')
 app.set('views', './views')
