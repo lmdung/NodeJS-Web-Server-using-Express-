@@ -13,7 +13,9 @@
     {
       "name": "Dung",
       "phone": "0934123456",
-      "id": "GSZlqB9Pt"
+      "id": "GSZlqB9Pt",
+      "email": "lmdung94@gmail.com",
+      "password": "123456"
     },
     {
       "name": "Binh",
@@ -24,6 +26,11 @@
       "name": "Minh",
       "phone": "0938435348",
       "id": "FtH2IsYQH"
+    },
+    {
+      "name": "Nam",
+      "phone": "0121424532",
+      "id": "-vvnLyxSb"
     }
   ]
 }
