@@ -1,7 +1,15 @@
 extends ../../layouts/common.pug
 block content
-    h1.text-center Create a new user
-    form.form-inline.justify-content-center(action="/users/create" method="POST")
-        .form-group
-            input#name(type="text" name="name", class="form-control" placeholder="Nhập tên")
-        button.btn.btn-primary.ml-2 Create
+    .container
+        h1.text-center Create a new user
+        if errors
+            each error in errors
+                .alert.alert-danger.col-lg-4= error
+        form.col-lg-4(action="/users/create" method="POST")
+            .form-group
+                label(for="name") Name
+                input#name(type="text" name="name", class="form-control" placeholder="Name", value= values? values.name : '')
+            .form-group
+                label(for="phone") Phone
+                input#name(type="text" name="phone", class="form-control" placeholder="Phone" value= values? values.phone : '')
+            button.btn.btn-primary Create

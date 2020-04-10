@@ -1,5 +1,6 @@
 extends ../../layouts/common.pug
 block content
-    h1 Infor user
-    strong Name
-        span= user.name
+    .container
+        h1 Infor user
+        strong(style="color: #DDD") Name
+            span(style="color: #111").ml-5= user.name
