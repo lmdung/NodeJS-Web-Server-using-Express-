@@ -1,5 +1,7 @@
-h1 Create a new user
-form(action="/users/create" method="POST")
-    label(for="name") Name
-    input#name(type="text" name="name")
-    button Create
+extends ../../layouts/common.pug
+block content
+    h1.text-center Create a new user
+    form.form-inline.justify-content-center(action="/users/create" method="POST")
+        .form-group
+            input#name(type="text" name="name", class="form-control" placeholder="Nhập tên")
+        button.btn.btn-primary.ml-2 Create

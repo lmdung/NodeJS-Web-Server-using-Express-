@@ -1,7 +1,6 @@
 var express = require('express')
 const userController = require('../controller/user.controller')
-const db = require('../db')
-const shortid = require('shortid');
+
 var router = express.Router()
 
 router.get('/', userController.index);
